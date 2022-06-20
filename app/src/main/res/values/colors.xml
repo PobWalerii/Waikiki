@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brown">#174163</color>
+    <color name="gray">#CAC9C9</color>
+    <color name="color1">#D6B6B6</color>
+    <color name="color2">#94B5B4</color>
+    <color name="color3">#8996A5</color>
+    <color name="color_back_activity">#A9B4C1</color>
+    <color name="favirite">#ECF8FF</color>
+    <color name="appbar">#4F6073</color>                     <!--#016766</color>-->
+    <color name="content">#94B5B4</color>
+    <color name="text_back">#E7EAEC</color>
+    <color name="comm_back">#E7ECEB</color>
+    <color name="comm_color">#2C2B2B</color>
+    <color name="back_txt">#B7D3D2</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+</resources>

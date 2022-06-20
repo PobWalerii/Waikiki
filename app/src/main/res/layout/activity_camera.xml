@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camera.CameraActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/appbar"
+        android:backgroundTint="@color/appbar">
+
+                        <ImageView
+                            android:id="@+id/imageClose"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/appbar"
+                            app:srcCompat="@drawable/arrow_left" />
+
+                        <TextView
+                            android:id="@+id/textApp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginRight="10dp"
+                            android:elegantTextHeight="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/app_name"
+                            android:textColor="@color/favirite"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentCameraContainerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@color/black" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
